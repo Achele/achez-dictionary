@@ -1,16 +1,63 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/9ccba42670.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/9ccba42670.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Achez Dictionary</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <i class="fa-solid fa-book"></i>  
+      <i class="fa-solid fa-book"></i>
     </header>
-    <input type="text" id="search">
-</body>
+    <main>
+      <form>
+        <input type="text" id="search" class="input" name="word" />
+      </form>
+
+      <section class="top">
+        <div class="title">
+          <!-- <h4>word</h4>
+                <p>Transcription</p> -->
+        </div>
+        <i class="fa-regular fa-circle-play"></i>
+      </section>
+      <div class="audio"></div>
+
+      <section class="noun">
+        <p>part of speech</p>
+        <hr />
+        <p class="meaning">meaning</p>
+        <ul class="meaning-list">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p>Synonyms</p>
+        <span class="synonyms"></span>
+      </section>
+
+      <section class="verb">
+        <p>part of speech</p>
+        <hr />
+        <p class="meaning">meaning</p>
+        <ul class="meaning-list">
+          <li></li>
+        </ul>
+        <blockquote></blockquote>
+      </section>
+
+      <section class="source">
+        <p>Source</p>
+        <a href="http://" target="_blank">url goes here</a>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
 </html>
